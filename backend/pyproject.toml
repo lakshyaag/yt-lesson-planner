@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "youtube-lesson-planner"
+version = "0.1.0"
+description = ""
+authors = ["Lakshya Agarwal <lakshyajannu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.1.5"
+google-api-python-client = "^2.136.0"
+google-auth-oauthlib = "^1.2.0"
+google-auth-httplib2 = "^0.2.0"
+rich = "^13.7.1"
+python-dotenv = "^1.0.1"
+langsmith = "^0.1.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
