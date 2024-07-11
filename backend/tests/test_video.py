@@ -29,7 +29,7 @@ def test_youtube_video_init(youtube_video):
 def test_youtube_video_repr(youtube_video):
     assert (
         repr(youtube_video)
-        == "Do You Know How Mobile Apps Are Released? by ByteByteGo - RIX4ufelA58"
+        == "Do You Know How Mobile Apps Are Released? by ByteByteGo - RIX4ufelA58 | Get a Free System Design PDF with 158 pages by subscribing to our weekly newsletter: https://bytebytego.ck.page/subscribe ..."
     )
 
 

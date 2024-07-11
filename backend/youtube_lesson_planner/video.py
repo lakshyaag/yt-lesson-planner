@@ -45,7 +45,7 @@ class YouTubeVideo:
         self.chunk_time_limit = chunk_time_limit
 
     def __repr__(self):
-        return f"{self.title} by {self.channel_title} - {self.video_id}"
+        return f"{self.title} by {self.channel_title} - {self.video_id} | {self.description}"
 
     def _get_transcript(self):
         try:
