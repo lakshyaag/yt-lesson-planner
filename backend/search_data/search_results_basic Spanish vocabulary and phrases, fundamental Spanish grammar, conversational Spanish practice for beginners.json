@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "4Y2UFwm07AGRtz18KtxWdqyQc24",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 35427,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "chFnWLX5cO_YtsaP-F1NXNVOSKQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "t7-nb1wlnyA"
+            },
+            "snippet": {
+                "publishedAt": "2017-08-19T01:30:01Z",
+                "channelId": "UCydVvh3Wg4VPvllLHFoe5_A",
+                "title": "Learn Spanish in 10 Minutes - ALL the Basics You Need",
+                "description": "Hurry! Click Here to Learn Spanish with a BIG up to 30% Discount on all SpanishPod101 subscriptions: https://goo.gl/VqQcwQ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t7-nb1wlnyA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t7-nb1wlnyA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t7-nb1wlnyA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Learn Spanish with SpanishPod101.com",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-08-19T01:30:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GSCfLM0UonKJjMHlEMfrk6Aqr9U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3yO_FR8yiQk"
+            },
+            "snippet": {
+                "publishedAt": "2019-07-25T12:28:47Z",
+                "channelId": "UCci5vozsm2-46a-WxIwjd5A",
+                "title": "Spanish for Beginners | 10 Must-Know Words &amp; Phrases",
+                "description": "In this lesson, you'll learn essential Spanish for beginners. Specifically, you'll learn: - The most important aspects of pronunciation, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3yO_FR8yiQk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3yO_FR8yiQk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3yO_FR8yiQk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Real Fast Spanish",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-07-25T12:28:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MTB-Zlb9DGwYAiDm7IxVIV0trcU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YsH3B9qVShE"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-01T13:33:00Z",
+                "channelId": "UCMwFxEFgl3M4BACjtHeXpYA",
+                "title": "How I Became Fluent In Spanish NOT In 30 Days",
+                "description": "This is the full journey of how I went from zero to fluent in Spanish, along with the mistakes I made, the strategies that worked, the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YsH3B9qVShE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YsH3B9qVShE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YsH3B9qVShE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jerry Registre",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-01T13:33:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7ausr_l8vIOhKyKkFpX6A-5LXyU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oG8jLhqAiuk"
+            },
+            "snippet": {
+                "publishedAt": "2016-10-11T08:30:00Z",
+                "channelId": "UCydVvh3Wg4VPvllLHFoe5_A",
+                "title": "Introduction to Spanish - Introduction to Spanish Grammar",
+                "description": "With this video you will improve your Spanish skills. https://bit.ly/491h8Mo Click here to download your Free 2000 Words for ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oG8jLhqAiuk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oG8jLhqAiuk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oG8jLhqAiuk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Learn Spanish with SpanishPod101.com",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-10-11T08:30:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TRx1VmO0t4EBcJa29fN4iu11VW0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oFatOXcFPB8"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-21T18:48:20Z",
+                "channelId": "UCtxkIdWKrCjdHmc3WE9Vxbw",
+                "title": "How to Learn Spanish On Your Own (FREE)",
+                "description": "Have fun learning Spanish with the Unacademy Language App: https://unacademy-language-learning.onelink.me/ewRt/gp9g3cld ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oFatOXcFPB8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oFatOXcFPB8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oFatOXcFPB8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Brian Wiles",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-21T18:48:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UxMXDKsA_yXJ7mAGBq-lAzta67E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-jBeGw5Ue10"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-03T13:00:12Z",
+                "channelId": "UCEm7oTIon9EX9oFQrzxyUrw",
+                "title": "\ud83d\udcd5 Learning SPANISH VOCABULARY # 1 \ud83d\udcd9 (intermediate and advanced)",
+                "description": "LearnSpanish #SpanishVocabulary En este video revisaremos parte del vocabulario (Spanish vocabulary) de la lectura: \u201c\u00bfNo ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-jBeGw5Ue10/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-jBeGw5Ue10/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-jBeGw5Ue10/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KaizenSpanish",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-03T13:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Asij30GWe8CviztqOqPNVUSfEuo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "P04TdWdfWKY"
+            },
+            "snippet": {
+                "publishedAt": "2024-06-14T14:30:10Z",
+                "channelId": "UCxPlGUSDAfhPCXvjfSb-KmQ",
+                "title": "How to actually learn Spanish from scratch",
+                "description": "If you want to properly start learning Spanish from scratch, then check this video with simple steps for beginners to help you ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P04TdWdfWKY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P04TdWdfWKY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P04TdWdfWKY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Celso Gil",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-06-14T14:30:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "my-l8N3swpEW_2Eq1mOaiu5A-pg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "1nAt7YTvNaw"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-01T18:11:33Z",
+                "channelId": "UCMwFxEFgl3M4BACjtHeXpYA",
+                "title": "How I Would Learn Spanish in 2024 (If I Could Start Over)",
+                "description": "You want to become fluent in another language in 2024, so let's not waste time. Here are 24 methods I've personally tried to learn ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1nAt7YTvNaw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1nAt7YTvNaw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1nAt7YTvNaw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jerry Registre",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-01T18:11:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Fr2Ln-zFZieJV5l0rBExyXCd78A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TUh-G-vcIe4"
+            },
+            "snippet": {
+                "publishedAt": "2017-04-04T10:31:49Z",
+                "channelId": "UCsANOtTfEeqqFMkyRnfCnOQ",
+                "title": "Introduction to Learn Spanish for English speakers |  | UPV",
+                "description": "T\u00edtulo: Introduction to Learn Spanish for English speakers Descripci\u00f3n autom\u00e1tica: In this video, viewers are introduced to a basic ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TUh-G-vcIe4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TUh-G-vcIe4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TUh-G-vcIe4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Universitat Polit\u00e8cnica de Val\u00e8ncia - UPV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-04-04T10:31:49Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PfowRnnJrw5cZL5gj8LtRV_m9UE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qYsHLUAlH_8"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-06T14:15:28Z",
+                "channelId": "UCtxkIdWKrCjdHmc3WE9Vxbw",
+                "title": "How to LEARN ANY LANGUAGE on Your Own (Fast!)",
+                "description": "Learning a language by yourself might seem daunting, but with the method and the right mindset, you can make progress ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qYsHLUAlH_8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qYsHLUAlH_8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qYsHLUAlH_8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Brian Wiles",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-07-06T14:15:28Z"
+            }
+        }
+    ]
+}

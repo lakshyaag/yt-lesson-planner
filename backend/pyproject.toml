@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "youtube-lesson-planner"
-version = "0.1.0"
-description = ""
+version = "0.0.2"
+description = "A tool to generate lesson plans from YouTube videos"
 authors = ["Lakshya Agarwal <lakshyajannu@gmail.com>"]
 readme = "README.md"
 
@@ -21,6 +21,7 @@ langchain-community = "^0.2.6"
 pytube = "^15.0.0"
 langchain-openai = "^0.1.14"
 supabase = "^2.5.1"
+langchain-qdrant = "^0.1.1"
 
 
 [build-system]

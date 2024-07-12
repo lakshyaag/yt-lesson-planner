@@ -1,29 +1,21 @@
-from textwrap import dedent
-from typing import List
 from operator import itemgetter
-from langchain_core.runnables import RunnablePassthrough
+from textwrap import dedent
 
 from langchain.prompts import ChatPromptTemplate
-from langchain.pydantic_v1 import BaseModel
+from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_openai import ChatOpenAI
-from youtube_lesson_planner.supabase_client import vectorstore
+from langchain_qdrant import Qdrant
+from youtube_lesson_planner.schemas import LearningObjectivesList, LessonPlan
+from youtube_lesson_planner.utils import (
+    format_learning_objectives,
+    format_video_context,
+)
 
 
-class Video(BaseModel):
-    title: str
-    url: str
-    transcript: str
-
-
-class LessonPlan(BaseModel):
-    title: str
-    description: str
-    videos: List[Video]
-    steps: List[str]
-
-
-def generate_plan(query: str):
-    generator_prompt = ChatPromptTemplate.from_messages(
+def generate_plan(
+    query: str, learning_objectives: LearningObjectivesList, vectorstore: Qdrant
+) -> LessonPlan:
+    prompt = ChatPromptTemplate.from_messages(
         [
             (
                 "user",
@@ -32,35 +24,46 @@ def generate_plan(query: str):
                 You are an agent that specializes in building learning curriculums based on user queries by searching YouTube. 
                 Your task is to create comprehensive and engaging learning curriculums using relevant YouTube videos that match the user's query.
 
-                You are provided with:
-                - The user's query
-                - The relevant chunks of videos through cosine similarity
-
-                Generate an effective learning curriculum based on the videos and the plan.
+                The learning objectives for the user's query identified by you earlier are:
+                {learning_objectives}
 
                 User query: {query}
 
-                Context from transcripts: {context}
+                Relevant video context: {context}
+
+                Using the learning objectives, create a short, effective curriculum for each topic by selecting and integrating the most relevant YouTube videos. 
+                The curriculum should be designed for adult learners and hosted on an all-digital asynchronous learning platform. 
+                Consider that some topics may not have perfectly aligned YouTube videos and that topics like AI and digital marketing may evolve quickly over time. 
+                Ensure that each curriculum is structured to include engaging content, practice opportunities, and self-assessment methods. 
                 """
                 ),
             ),
         ]
     )
 
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 20})
+    retriever_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.6, streaming=False)
 
-    generator_llm = ChatOpenAI(model="gpt-4o", temperature=0.5, streaming=False)
-
-    generator_chain = (
-        {
-            "context": itemgetter("query") | retriever,
-            "query": itemgetter("query"),
-        }
-        | RunnablePassthrough.assign(context=itemgetter("context"))
-        | generator_prompt
-        | generator_llm.with_structured_output(LessonPlan)
+    retriever = MultiQueryRetriever.from_llm(
+        retriever=vectorstore.as_retriever(search_kwargs={"k": 10}), llm=retriever_llm
     )
 
-    result = generator_chain.invoke({"query": query})
+    llm = ChatOpenAI(model="gpt-4o", temperature=0.5, streaming=False)
 
-    return {"lesson_plan": result}
+    chain = (
+        {
+            "context": itemgetter("query") | retriever | format_video_context,
+            "query": itemgetter("query"),
+            "learning_objectives": itemgetter("learning_objectives"),
+        }
+        | prompt
+        | llm.with_structured_output(LessonPlan)
+    )
+
+    result = chain.invoke(
+        {
+            "query": query,
+            "learning_objectives": format_learning_objectives(learning_objectives),
+        }
+    )
+
+    return result

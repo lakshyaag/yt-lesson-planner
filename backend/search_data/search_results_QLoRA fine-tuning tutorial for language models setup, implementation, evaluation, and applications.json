@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "cSeDVw44Eu2Vk9kCpS46C1d4_lQ",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 65,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_zzLThHe5mib2m8lqcDJdhK7-8c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Us5ZFp16PaU"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-24T13:40:16Z",
+                "channelId": "UC55ODQSvARtgSyc8ThfiepQ",
+                "title": "Fine-tuning LLMs with PEFT and LoRA",
+                "description": "LoRA Colab : https://colab.research.google.com/drive/14xo6sj4dARk8lXZbOifHEn1f_70qNAwy?usp=sharing Blog Post: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Us5ZFp16PaU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Us5ZFp16PaU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Us5ZFp16PaU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sam Witteveen",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-24T13:40:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rP-3rXzoaql84J6kDxpf_5Rwn44",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gs-IDg-FoIQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-14T10:00:29Z",
+                "channelId": "UC_CzsS7UTjcxJ-xXp1ftxtA",
+                "title": "Finetuning Open-Source LLMs",
+                "description": "This video offers a quick dive into the world of finetuning Large Language Models (LLMs). This video covers - common usage ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gs-IDg-FoIQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gs-IDg-FoIQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gs-IDg-FoIQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sebastian Raschka",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-14T10:00:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lL0l8KxunMpyRTBX5Hrfso9C7n0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "74NSDMvYZ9Y"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-12T18:41:18Z",
+                "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+                "title": "Fine Tune LLaMA 2 In FIVE MINUTES! - &quot;Perform 10x Better For My Use Case&quot;",
+                "description": "Sign up for Gradient and get $10 in free credits today: https://grdt.ai/mberman In this video, I show you how to fine-tune LLaMA 2 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/74NSDMvYZ9Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/74NSDMvYZ9Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/74NSDMvYZ9Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Matthew Berman",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-12T18:41:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yozx0rUq-yZlhzzmIzZaqDlJjEg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "T-D1OfcDW1M"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-23T11:00:32Z",
+                "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+                "title": "What is Retrieval-Augmented Generation (RAG)?",
+                "description": "Try RAG with watsonx \u2192 https://ibm.biz/BdMsRT Learn more about RAG\u2192 https://ibm.biz/BdMsRt Large language models usually ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T-D1OfcDW1M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T-D1OfcDW1M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T-D1OfcDW1M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "IBM Technology",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-23T11:00:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Vy09cPVNeLbvD8yQ1FXLI2wsGxc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YEVyupJxt1Q"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-09T12:00:23Z",
+                "channelId": "UCfOvNb3xj28SNqPQ_JIbumg",
+                "title": "New Tutorial on LLM Quantization w/ QLoRA, GPTQ and Llamacpp, LLama 2",
+                "description": "LLM Quantization: GPTQ - AutoGPTQ llama.cpp - ggml.c - GGUL - C++ Compare to HF transformers in 4-bit quantization.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YEVyupJxt1Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YEVyupJxt1Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YEVyupJxt1Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "code_your_own_AI",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-09T12:00:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nZyscHDVozpWVFC3DKhDQ2Je46c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VuUHA_zK4EM"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-08T16:20:31Z",
+                "channelId": "UC3q8O3Bh2Le8Rj1-Q-_UUbA",
+                "title": "LLM Module 4: Fine-tuning and Evaluating LLMs | 4.3 Applying Foundation LLMs",
+                "description": "To participate in discussion forums, enroll in our Large Language Models course on edX for free here: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VuUHA_zK4EM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VuUHA_zK4EM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VuUHA_zK4EM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Databricks",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-08T16:20:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "quO1K849TUk4MJUjr_IGU-Op2GM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9bl1mJImj10"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-27T20:18:37Z",
+                "channelId": "UCLr4UuEb2e3XjeMnq4HH32g",
+                "title": "Fine-Tuning Mistral 7B using QLoRA and PEFT on Unstructured Scraped Text Data | Making it Evil?",
+                "description": "llm #generativeai #machinelearning Can you train new or forbidden knowledge into a LLM? Let's fine out as I throw 1 gigabyte of ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9bl1mJImj10/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9bl1mJImj10/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9bl1mJImj10/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NanoNomad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-27T20:18:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "m5vtXgoIbAWruZHl343GbbFNziE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "A-a-l_sFtYM"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-30T12:00:06Z",
+                "channelId": "UCfOvNb3xj28SNqPQ_JIbumg",
+                "title": "Boost Fine-Tuning Performance of LLM:  Optimal Architecture w/ PEFT LoRA Adapter-Tuning on Your GPU",
+                "description": "Not enough memory to fine-tune your Language Model: T5, GPT, OPT, BLOOM, Llama, ..? Optimize your model architecture to the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/A-a-l_sFtYM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/A-a-l_sFtYM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/A-a-l_sFtYM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "code_your_own_AI",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-30T12:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vuHML9QIU2PdlkcghjP16TCLG10",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "aI8cyr-gH6M"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-31T12:00:00Z",
+                "channelId": "UCfOvNb3xj28SNqPQ_JIbumg",
+                "title": "How to Code RLHF on LLama2 w/ LoRA, 4-bit, TRL, DPO",
+                "description": "Python code to code \"Reinforcement Learning from Human Feedback\" (RLHF) on a LLama 2 model with 4-bit quantization, LoRA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aI8cyr-gH6M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aI8cyr-gH6M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aI8cyr-gH6M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "code_your_own_AI",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-31T12:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "E4TaGb3XSHYC-kw3l0hrTmwWJqw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_GkHZQYFOGM"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-04T16:07:30Z",
+                "channelId": "UCruC3Lkt_-StdHlPiyWbPSg",
+                "title": "Fine tuning LLMs for Memorization",
+                "description": "ADVANCED-fine-tuning Repo (incl. Memorization Scripts): https://trelis.com/advanced-fine-tuning-scripts/ \u27a1\ufe0f One-click ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_GkHZQYFOGM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_GkHZQYFOGM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_GkHZQYFOGM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Trelis Research",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-04T16:07:30Z"
+            }
+        }
+    ]
+}

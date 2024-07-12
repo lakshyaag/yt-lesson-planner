@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "4NssIPoZ0yp2JmKH8F4Oj9JmSvg",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b6x2-MgCGyKqxauIlcNu6IZ-jYg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "f7eqnvfzUBQ"
+            },
+            "snippet": {
+                "publishedAt": "2017-04-28T16:00:08Z",
+                "channelId": "UCIdFcLCIJQ_YMrormG_nU8w",
+                "title": "Learning Spanish: Why is it so Hard to Understand Spanish Speakers || Improve Listening Skills",
+                "description": "Have you noticed it is hard to understand Spanish speakers when they are speaking with each other? Here we'll explain why, and ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f7eqnvfzUBQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f7eqnvfzUBQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f7eqnvfzUBQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Why Not Spanish?",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-04-28T16:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "C3t1MjZi7sZDy4qbr1CkHv8AUck",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-wSE_3_j35U"
+            },
+            "snippet": {
+                "publishedAt": "2016-09-14T00:56:39Z",
+                "channelId": "UC8UA8eOwj0WQild7-asffqw",
+                "title": "Learn English | Pronunciation | Spanish Speakers | Lesson 1",
+                "description": "NEW lesson  : https://youtu.be/9LGcbpVE5Ig contact me for lessons: https://privateenglishportal.com/contact-steve ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-wSE_3_j35U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-wSE_3_j35U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-wSE_3_j35U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Learn English with Steve Ford",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-09-14T00:56:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "D8s3mqb9LW_Ls7X7i92neeedGFk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7bRO-C0qHhQ"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-31T15:03:24Z",
+                "channelId": "UCYR9NiM3qzfczomiJdAw83Q",
+                "title": "50 Spanish Transition Words to Make You Sound Like a Native Speaker | Spanish Grammar",
+                "description": "Transition words are beautiful tools that help us to connect our ideas and give a natural flow to the rhythm of our speech\u2014and ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7bRO-C0qHhQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7bRO-C0qHhQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7bRO-C0qHhQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Spanish Academy TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-31T15:03:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0xQFCSg1X1qFz2ao9diGzt2NQPc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ncwxgeRsuH4"
+            },
+            "snippet": {
+                "publishedAt": "2019-08-23T09:55:03Z",
+                "channelId": "UC5B9ci_IO3AMHqGsifkHMJQ",
+                "title": "Spanish Pronunciation Guide",
+                "description": "spanishpronunciation #spanishaccent #perfectspanish Today's lesson will reveal the SECRETS that you need to uncover in order ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ncwxgeRsuH4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ncwxgeRsuH4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ncwxgeRsuH4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Learn Spanish World",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-08-23T09:55:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "EvuosOP0ktAdtJ2pItn6dhoxxcc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "HG9xjhmfBvE"
+            },
+            "snippet": {
+                "publishedAt": "2020-09-12T17:08:06Z",
+                "channelId": "UCaIG6EdT5ExPxsPpMRUB-yw",
+                "title": "5 Unconventional Resources for Learning Spanish (from home)",
+                "description": "FluentU free trial \u2192 https://t.ly/fRFpf These are 5 unconventional resources for learning Spanish, all from home! Of course ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HG9xjhmfBvE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HG9xjhmfBvE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HG9xjhmfBvE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "FluentU Spanish",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-09-12T17:08:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Hdi5-RleHVXDE_eDK6dOjBE5xJk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NqniyFpepq8"
+            },
+            "snippet": {
+                "publishedAt": "2015-09-24T20:09:10Z",
+                "channelId": "UC67Vc0fkLYeUPBp1f02VY9Q",
+                "title": "Learn Spanish: Basic Spanish for English Speakers | UPValenciaX on edX | Course About Video",
+                "description": "Take this course for free on edX: https://www.edx.org/course/learn-spanish-basic-spanish-english-upvalenciax-bsp101x \u2193 More ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NqniyFpepq8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NqniyFpepq8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NqniyFpepq8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "edX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2015-09-24T20:09:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "axZJDJ5wdzcfvn2ds1DXAiIYuUU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "D6_qpaSxAQc"
+            },
+            "snippet": {
+                "publishedAt": "2020-06-28T13:16:18Z",
+                "channelId": "UCiVm8XcbwS8-pcDEa5lFXIA",
+                "title": "Understand Native English Speakers with this Advanced Listening Lesson",
+                "description": "25% Discount on my online IELTS Speaking GOLD course: https://keithspeakingacademy.com/ielts-band7-gold-yt Get the Free ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/D6_qpaSxAQc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/D6_qpaSxAQc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/D6_qpaSxAQc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "English Speaking Success",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-06-28T13:16:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vObAP-AsEmVrqEkGMnSwB2V-Y_s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G0ACgu5I8eU"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-24T01:00:02Z",
+                "channelId": "UCjnIhuq24374DetprE-6dQg",
+                "title": "5 Smart Tricks to Finally Understand Spanish Native Speakers (Try Them TODAY) \ud83e\udde0",
+                "description": "Having trouble understanding native speakers? Watch this video to discover #UnderstandingSpanishSpeakersTips! I tell you what ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G0ACgu5I8eU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G0ACgu5I8eU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G0ACgu5I8eU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Spring Spanish - Learn Spanish with Chunks",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-24T01:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Z1BEJL1HySEpxAS_e0CLgG-WIxY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L7fwovbS7IM"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-01T20:00:05Z",
+                "channelId": "UCjnIhuq24374DetprE-6dQg",
+                "title": "5 Reasons why Spanish is EASY to Learn for English Native Speakers",
+                "description": "Many people ask #Is_Spanish_Easy_To_Learn? In this video, I give you five reasons why Spanish is definitely easy to learn, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L7fwovbS7IM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L7fwovbS7IM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L7fwovbS7IM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Spring Spanish - Learn Spanish with Chunks",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-01T20:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yibtG5mR96rG86ZYHE7ZDH9j1hQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "IDlWrW2FeN4"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-16T21:00:08Z",
+                "channelId": "UCjnIhuq24374DetprE-6dQg",
+                "title": "Use YA in Spanish like a Native Speaker (Chunks with YA)",
+                "description": "Ya\u201d is such a useful little word. It can ask questions, demand things, rush or stop people, etc, etc, etc. Most of the time the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IDlWrW2FeN4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IDlWrW2FeN4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IDlWrW2FeN4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Spring Spanish - Learn Spanish with Chunks",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-16T21:00:08Z"
+            }
+        }
+    ]
+}

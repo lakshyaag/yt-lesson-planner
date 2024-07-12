@@ -1,5 +1,4 @@
 import json
-
 import os
 from typing import Dict
 
@@ -14,7 +13,9 @@ youtube = googleapiclient.discovery.build(
 )
 
 
-def search_youtube_videos(query: str, max_results: int = 10) -> Dict:
+def search_youtube(
+    query: str, max_results: int = 10, chunk_time_limit: int = 60
+) -> Dict[str, YouTubeVideo]:
     search_result = (
         youtube.search()
         .list(
@@ -33,16 +34,16 @@ def search_youtube_videos(query: str, max_results: int = 10) -> Dict:
     with open(f"../search_data/search_results_{query}.json", "w") as f:
         json.dump(search_result, f, indent=4)
 
-    yt_videos = [
-        YouTubeVideo(
+    yt_videos = {
+        item["id"]["videoId"]: YouTubeVideo(
             video_id=item["id"]["videoId"],
             title=item["snippet"]["title"],
             description=item["snippet"]["description"],
             published_at=item["snippet"]["publishedAt"],
             channel_title=item["snippet"]["channelTitle"],
-            chunk_time_limit=30,
+            chunk_time_limit=chunk_time_limit,
         )
         for item in items
-    ]
+    }
 
     return yt_videos
