@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "prCZaR-bm5BmyO_jka1hlbWwTko",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 105856,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XFSV8RB-lV0z8W51m1YPtOVG_Ws",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Bm63OwAl2Io"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-18T19:42:39Z",
+                "channelId": "UCjqDDqUh1DgjrlNjLR5p8nw",
+                "title": "Consistency Models from OpenAI - Optimizing Diffusion Models Inference",
+                "description": "In this video we will introduce Consistency Models, a novel type of generative models introduced by Open AI in March 2023 with a ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Bm63OwAl2Io/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Bm63OwAl2Io/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Bm63OwAl2Io/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "AI Papers Academy",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-18T19:42:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xMklYOSDXrvH9jNcbF3X9BGltg4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zc5NTeJbk-k"
+            },
+            "snippet": {
+                "publishedAt": "2024-02-16T21:00:25Z",
+                "channelId": "UC3sH8ShnMyB5MxavG1DaklA",
+                "title": "Why Does Diffusion Work Better than Auto-Regression?",
+                "description": "Have you ever wondered how generative AI actually works? Well the short answer is, in exactly the same as way as regular AI!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zc5NTeJbk-k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zc5NTeJbk-k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zc5NTeJbk-k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Algorithmic Simplicity",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-02-16T21:00:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4UoFisCBQyEUjU6J7jLWTL8cDFk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "i2qSxMVeVLI"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-08T14:00:24Z",
+                "channelId": "UCkQS_dP6GJTmYnMlox-YiKQ",
+                "title": "How I Understand Diffusion Models",
+                "description": "Diffusion models are powerful generative models that enable many successful applications like image, video, and 3D generation ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/i2qSxMVeVLI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/i2qSxMVeVLI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/i2qSxMVeVLI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jia-Bin Huang",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-08T14:00:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ciZHolREA38C4k74zOcuMwlijyc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZBKpAp_6TGI"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-27T01:51:59Z",
+                "channelId": "UCtAcpQcYerN8xxZJYTfWBMw",
+                "title": "Coding Stable Diffusion from scratch in PyTorch",
+                "description": "Full coding of Stable Diffusion from scratch, with full explanation, including explanation of the mathematics. Visual explanation of ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZBKpAp_6TGI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZBKpAp_6TGI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZBKpAp_6TGI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Umar Jamil",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-27T01:51:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4I-iNdRq8fGI8y2uwqmzA8dPVuY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "AKBelBkPHYk"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-04T19:21:19Z",
+                "channelId": "UCQpg1Hi5bQwe3PhIXSxHAYA",
+                "title": "Stable Diffusion Performance Optimization Tutorial",
+                "description": "Stable Diffusion Performance Optimization I'll show you how to generate Images faster in Automatic1111. It should also work for ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AKBelBkPHYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AKBelBkPHYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AKBelBkPHYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Archive",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-04T19:21:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "P1qk7T5jmoSVa1V22uqr214m4cE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pstsh2C2roc"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-09T22:44:34Z",
+                "channelId": "UC0rqucBdTuFTjJiefW5t-IQ",
+                "title": "Diffusion models with KerasCV",
+                "description": "Over the last 6 months text to image models such as DallE-2, ImageGen, and StableDiffusion have taken off. These models can ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pstsh2C2roc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pstsh2C2roc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pstsh2C2roc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "TensorFlow",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-09T22:44:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pymAegIrRgfs_cGgskxEPSVS8_M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "344w5h24-h8"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-23T13:53:11Z",
+                "channelId": "UCobqgqE4i5Kf7wrxRxhToQA",
+                "title": "Diffusion models explained. How does OpenAI&#39;s GLIDE work?",
+                "description": "Diffusion models beat GANs in image synthesis, GLIDE generates images from text descriptions, surpassing even DALL-E in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/344w5h24-h8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/344w5h24-h8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/344w5h24-h8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "AI Coffee Break with Letitia",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-23T13:53:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1ACDCvmeb9q5FxLyKQRR3VqcmzQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qzTlzrMWU2M"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-29T09:41:02Z",
+                "channelId": "UCu-Z1yGwDunU9Lv_-b8QDGA",
+                "title": "NULL-text Inversion for Editing Real Images using Guided Diffusion Models",
+                "description": "Short overview for the CVPR 2023 paper \"NULL-text Inversion for Editing Real Images using Guided Diffusion Models\"",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qzTlzrMWU2M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qzTlzrMWU2M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qzTlzrMWU2M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ron mokady",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-29T09:41:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cl6qK8vtFX-1Wif0VykK8qzLST0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "b18IRWkT9Gk"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-22T23:01:25Z",
+                "channelId": "UCvKqTb-65iAmXK59sFNKINQ",
+                "title": "Stable diffusion up to 50% faster? I&#39;ll show you.",
+                "description": "In this Stable diffusion tutorial we'll speed up your Stable diffusion installation with xformers without it impacting your hardware at ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/b18IRWkT9Gk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/b18IRWkT9Gk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/b18IRWkT9Gk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sebastian Kamph",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-22T23:01:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rfNN8TA99hi5EZMc9gTjt7fPyFA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_7rMfsA24Ls"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-20T02:20:59Z",
+                "channelId": "UCX7Y2qWriXpqocG97SFW2OQ",
+                "title": "Lesson 9: Deep Learning Foundations to Stable Diffusion",
+                "description": "All lesson resources are available at http://course.fast.ai.) This is the first lesson of part 2 of Practical Deep Learning for Coders.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_7rMfsA24Ls/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_7rMfsA24Ls/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_7rMfsA24Ls/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jeremy Howard",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-20T02:20:59Z"
+            }
+        }
+    ]
+}

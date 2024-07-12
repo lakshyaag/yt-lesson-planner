@@ -65,6 +65,7 @@ class YouTubeVideo:
         self, chunk_pieces: List[Dict], chunk_start_seconds: int
     ) -> Document:
         """Create Document from chunk of transcript pieces."""
+        # TODO: Add overlap for chunking to avoid cutting off sentences.
         m, s = divmod(chunk_start_seconds, 60)
         h, m = divmod(m, 60)
         return Document(

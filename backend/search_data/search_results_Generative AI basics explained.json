@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "XnKcHLF71Vx5pYLt7ceEoc-MPZo",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 509720,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "a3y1mMJ_nRnaVLYGBm_y68JAaxo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G2fqAlgmoPo"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-08T23:14:00Z",
+                "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg",
+                "title": "Introduction to Generative AI",
+                "description": "Enroll in this course on Google Cloud Skills Boost \u2192 https://goo.gle/3MdGgHs What is Generative AI and how does it work?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G2fqAlgmoPo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G2fqAlgmoPo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G2fqAlgmoPo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Google Cloud Tech",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-08T23:14:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bt_IOLpTwUMAx8lmAs_JZtQEV4Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rwF-X5STYks"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-25T08:38:07Z",
+                "channelId": "UCtimfZyjzmkpOeLI1s88hcQ",
+                "title": "Generative AI explained in 2 minutes",
+                "description": "You've probably heard of ChatGPT, Midjourney, prompts and deepfakes. But what exactly is \"generative AI\"? That's what you'll ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rwF-X5STYks/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rwF-X5STYks/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rwF-X5STYks/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KI-Campus",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-25T08:38:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_OYrl4-elYbwMGuqT96gHbYZp74",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_6R7Ym6Vy_I"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-12T16:29:50Z",
+                "channelId": "UCYeF244yNGuFefuFKqxIAXw",
+                "title": "What is generative AI and how does it work? \u2013 The Turing Lectures with Mirella Lapata",
+                "description": "How are technologies like ChatGPT created? And what does the future hold for AI language models? This talk was filmed at the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_6R7Ym6Vy_I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_6R7Ym6Vy_I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_6R7Ym6Vy_I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "The Royal Institution",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-12T16:29:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qF4HC21V4OScMcH1r-t-9vKkyVo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hfIUstzHs9A"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-22T19:58:47Z",
+                "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+                "title": "What are Generative AI models?",
+                "description": "Learn more about watsonx \u2192 https://ibm.biz/BdvxDz Generative AI has stunned the world with its ability to create realistic images, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hfIUstzHs9A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hfIUstzHs9A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hfIUstzHs9A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "IBM Technology",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-22T19:58:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ihaD7P1Dxk5gue9T6HD0xxhOzT4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pWNAtUwnBS8"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-15T18:47:37Z",
+                "channelId": "UCHCThmyZ-2yWkv0UVeBDdnQ",
+                "title": "What is Generative AI?",
+                "description": "Get our full guide to Generative AI here: https://social.ora.cl/60095GtWv The question of the year has certainly been: What is ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pWNAtUwnBS8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pWNAtUwnBS8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pWNAtUwnBS8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Oracle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-15T18:47:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XAZQHCXpvMe7Ypm6vww7PszavvE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Yq0QkCxoTHM"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-14T13:00:33Z",
+                "channelId": "UCwAnu01qlnVg1Ai2AbtTMaA",
+                "title": "Google\u2019s AI Course for Beginners (in 10 minutes)!",
+                "description": "Grab my free Workspace Toolkit: https://academy.jeffsu.org/?utm_source=youtube&utm_medium=video&utm_campaign=146 In ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Yq0QkCxoTHM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Yq0QkCxoTHM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Yq0QkCxoTHM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jeff Su",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-14T13:00:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ruhu6uDyLHFQkTIzFVkKUV3uVC8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vneJieU5qlg"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-12T14:47:06Z",
+                "channelId": "UC35IEXYfoovy3XnMeJ1Kujw",
+                "title": "Generative AI Explained",
+                "description": "GlobalData gives a brief overview on Generative AI, how this new technology is being applied, and who are the leading ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vneJieU5qlg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vneJieU5qlg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vneJieU5qlg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "GlobalData Trends & Insight",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-12T14:47:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FqXJr_4TBbC0vpRAK2faMM37dYo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qWSFcRXpjxQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-17T01:11:39Z",
+                "channelId": "UCd6MoB9NC6uYN2grvUNT-Zg",
+                "title": "What is Generative AI and How Does it Work? | Amazon Web Services",
+                "description": "Generative AI has the potential to transform how industries operates and change our daily lives for the better. So, what makes ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qWSFcRXpjxQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qWSFcRXpjxQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qWSFcRXpjxQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Amazon Web Services",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-17T01:11:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OgogkXTEbeGjuocScSJzzVNtfsc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5sLYAQS9sWQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-28T13:13:59Z",
+                "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+                "title": "How Large Language Models Work",
+                "description": "Learn about watsonx \u2192 https://ibm.biz/BdvxRj Large language models-- or LLMs --are a type of generative pretrained transformer ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5sLYAQS9sWQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5sLYAQS9sWQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5sLYAQS9sWQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "IBM Technology",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-28T13:13:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hOL4oUOKpJGiMMQUyT25XM0U6ho",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "unPKJJjQP0A"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-15T22:45:04Z",
+                "channelId": "UCK8sQmJBp8GCxrOtXWBpyEA",
+                "title": "Watch this before using generative AI",
+                "description": "Ready to get started with generative AI? Here are the 5 must-knows for teens and parents to learn how to use it responsibly.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/unPKJJjQP0A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/unPKJJjQP0A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/unPKJJjQP0A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Google",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-15T22:45:04Z"
+            }
+        }
+    ]
+}

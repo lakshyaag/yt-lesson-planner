@@ -1,0 +1,352 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "0s-xWsczB9ViJWcODkJNhi57TX0",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "CA",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7UrrJrL_E_zfCqNscWy3OI26aG0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YqQx75OPRa0"
+            },
+            "snippet": {
+                "publishedAt": "2017-07-13T19:50:53Z",
+                "channelId": "UCeYUHG6o0YguM-g23htdsSw",
+                "title": "Beginning Graphic Design: Fundamentals",
+                "description": "In this video, you'll learn the fundamentals of graphic design.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YqQx75OPRa0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YqQx75OPRa0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YqQx75OPRa0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LearnFree",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-07-13T19:50:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qsAENPSOKjAh0gEFMUlnJKlEBrk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UmHMVU6dceA"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-06T03:32:48Z",
+                "channelId": "UCEDLeLo3HNQZiJOTR2svg2A",
+                "title": "Understanding the Principles of Design | Graphic Design Basic",
+                "description": "Learn what are the most important design principles and how you can use them to create better visuals with Canva. This is the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UmHMVU6dceA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UmHMVU6dceA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UmHMVU6dceA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Canva",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-06T03:32:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "flL9vgDZfB6kkXDQ2Yg4mducpAM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dFSia1LZI4Y"
+            },
+            "snippet": {
+                "publishedAt": "2016-01-21T11:11:53Z",
+                "channelId": "UC64eec0UYHxflyEWgyZOvLA",
+                "title": "What is Graphic Design? Ep1/45 [Beginners Guide to Graphic Design]",
+                "description": "In this video I am going to attempt to answer this question and give you my take on it from my experience.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dFSia1LZI4Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dFSia1LZI4Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dFSia1LZI4Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Gareth David Studio",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-01-21T11:11:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xLdjPXbq-QPeArkqA1wB1pQ_Nyg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Pseyl0o4Z7s"
+            },
+            "snippet": {
+                "publishedAt": "2020-03-27T22:26:55Z",
+                "channelId": "UCgllKT-His1Tbd4LUFazXUA",
+                "title": "How to Learn Graphic Design at Home",
+                "description": "If you've ever wanted to learn graphic design, then this video is for you! I put together some resources on how to learn graphic ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Pseyl0o4Z7s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Pseyl0o4Z7s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Pseyl0o4Z7s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Pixel & Bracket",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-03-27T22:26:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nk6S4N_BLWD5-1nbIeQ7OMbkGs4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OA0dB6rmhPc"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-22T08:59:59Z",
+                "channelId": "UCoeJKtPJLoIBqWq4o8TDLpA",
+                "title": "Become An EFFICIENT Graphic Designer! (Important Things You Need To Know)",
+                "description": "How do you become a graphic designer, and what do you need to know? Thanks to Porkbun for sponsoring today's video.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OA0dB6rmhPc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OA0dB6rmhPc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OA0dB6rmhPc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Satori Graphics",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-22T08:59:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BDSpgj9GSt1e0zGswQgrBwX1l6o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sYXnhxZjIss"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-04T11:00:26Z",
+                "channelId": "UCoeJKtPJLoIBqWq4o8TDLpA",
+                "title": "Learn Graphic Design In 6 Minutes!",
+                "description": "In this video I share with you 15 years of graphic design experience, but in a matter of only 6 minutes. Being a graphic designer for ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sYXnhxZjIss/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sYXnhxZjIss/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sYXnhxZjIss/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Satori Graphics",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-04T11:00:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KA5tR24-TGufvF8-6WMVXGW3S64",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sByzHoiYFX0"
+            },
+            "snippet": {
+                "publishedAt": "2016-08-10T15:34:42Z",
+                "channelId": "UCeYUHG6o0YguM-g23htdsSw",
+                "title": "Beginning Graphic Design: Typography",
+                "description": "In this video, learn more about the basics of working with typography.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sByzHoiYFX0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sByzHoiYFX0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sByzHoiYFX0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LearnFree",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-08-10T15:34:42Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "56OLXKWeIqYLHLr1V_YdZkW0iYc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a5KYlHNKQB8"
+            },
+            "snippet": {
+                "publishedAt": "2016-11-22T19:56:07Z",
+                "channelId": "UCeYUHG6o0YguM-g23htdsSw",
+                "title": "Beginning Graphic Design: Layout &amp; Composition",
+                "description": "In this video, you'll learn the basics of layout and composition in graphic design.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a5KYlHNKQB8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a5KYlHNKQB8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a5KYlHNKQB8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LearnFree",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-11-22T19:56:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gYBtrQ51ezqBnyGrvBkbMUK45SQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MELKuexR3sQ"
+            },
+            "snippet": {
+                "publishedAt": "2017-01-30T16:52:38Z",
+                "channelId": "UCeYUHG6o0YguM-g23htdsSw",
+                "title": "Beginning Graphic Design: Images",
+                "description": "In this video, you'll learn the basics of using images in graphic design.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MELKuexR3sQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MELKuexR3sQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MELKuexR3sQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LearnFree",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-01-30T16:52:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wv2TOvRESimiDh5hbAKV7Osk6Zg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ib8UBwu3yGA"
+            },
+            "snippet": {
+                "publishedAt": "2020-04-15T15:00:10Z",
+                "channelId": "UC8lxnUR_CzruT2KA6cb7p0Q",
+                "title": "Adobe Illustrator for Beginners | FREE COURSE",
+                "description": "Learn how to use Adobe Illustrator for beginners in this free course. Start by mastering the Illustrator basics, and then learn to ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ib8UBwu3yGA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ib8UBwu3yGA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ib8UBwu3yGA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Envato Tuts+",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-04-15T15:00:10Z"
+            }
+        }
+    ]
+}

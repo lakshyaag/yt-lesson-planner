@@ -20,6 +20,7 @@ langchain-core = "^0.2.11"
 langchain-community = "^0.2.6"
 pytube = "^15.0.0"
 langchain-openai = "^0.1.14"
+supabase = "^2.5.1"
 
 
 [build-system]
