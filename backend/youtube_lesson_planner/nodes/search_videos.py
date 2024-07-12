@@ -31,8 +31,8 @@ def search_youtube(
     items = search_result["items"]
 
     # Save search result with query name
-    with open(f"../search_data/search_results_{query}.json", "w") as f:
-        json.dump(search_result, f, indent=4)
+    # with open(f"../search_data/search_results_{query}.json", "w") as f:
+    #     json.dump(search_result, f, indent=4)
 
     yt_videos = {
         item["id"]["videoId"]: YouTubeVideo(

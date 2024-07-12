@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from langchain.schema import Document
 from rich import print
 from youtube_transcript_api import YouTubeTranscriptApi
+from langchain.pydantic_v1 import BaseModel
 
 load_dotenv()
 
@@ -27,22 +28,16 @@ def search_videos(query: str, max_results: int = 10) -> dict:
     return response
 
 
-class YouTubeVideo:
-    def __init__(
-        self,
-        video_id,
-        title,
-        description,
-        published_at,
-        channel_title,
-        chunk_time_limit=120,
-    ):
-        self.video_id = video_id
-        self.title = title
-        self.description = description
-        self.published_at = published_at
-        self.channel_title = channel_title
-        self.chunk_time_limit = chunk_time_limit
+class YouTubeVideo(BaseModel):
+    class Config:
+        arbitrary_types_allowed = True
+
+    video_id: str
+    title: str
+    description: str
+    published_at: str
+    channel_title: str
+    chunk_time_limit: int = 120
 
     def __repr__(self):
         return f"{self.title} by {self.channel_title} - {self.video_id} | {self.description}"
