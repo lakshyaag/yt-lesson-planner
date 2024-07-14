@@ -1,5 +1,6 @@
 from typing import Dict, List, Optional
 
+from pydantic import BaseModel as PydanticBaseModel
 from langchain.pydantic_v1 import BaseModel, Field
 from langchain_qdrant import Qdrant
 from typing_extensions import TypedDict
@@ -55,3 +56,6 @@ class AgentState(TypedDict):
     videos: Dict[str, YouTubeVideo]
     vectorstore: Qdrant
     transcripts_status: bool
+
+class RequestModel(PydanticBaseModel):
+    user_input: str
