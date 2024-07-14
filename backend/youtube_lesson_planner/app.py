@@ -1,5 +1,3 @@
-# TODO: Fix serialization of the response object
-# TODO: FastAPI does not work
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -34,7 +32,7 @@ def read_root():
     }
 
 
-@app.post("/learn")
+@app.post("/learn/")
 def build_plan(user_input: str):
     response = graph.invoke({"original_query": user_input})
 

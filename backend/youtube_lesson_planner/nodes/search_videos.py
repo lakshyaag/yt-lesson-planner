@@ -34,6 +34,12 @@ def search_youtube(
     # with open(f"../search_data/search_results_{query}.json", "w") as f:
     #     json.dump(search_result, f, indent=4)
 
+    # with open(
+    #     "../search_data/search_results_Generative AI basics explained.json", "r"
+    # ) as f:
+    #     search_result = json.load(f)
+    #     items = search_result["items"]
+
     yt_videos = {
         item["id"]["videoId"]: YouTubeVideo(
             video_id=item["id"]["videoId"],

@@ -1,7 +1,4 @@
-from langchain_openai import OpenAIEmbeddings
-from langchain_qdrant import Qdrant
 from langgraph.graph import END, StateGraph
-from qdrant_client import QdrantClient
 
 from youtube_lesson_planner.nodes.generate_plan import generate_plan
 from youtube_lesson_planner.nodes.get_transcripts import get_transcripts
@@ -14,26 +11,6 @@ from youtube_lesson_planner.schemas import AgentState
 
 
 # Define nodes
-def create_vectorstore(state: AgentState) -> AgentState:
-    embeddings = OpenAIEmbeddings(model="text-embedding-3-small", dimensions=512)
-    qdrant_client = QdrantClient(
-        location=":memory:",
-    )
-    qdrant_client.create_collection(
-        "youtube_transcripts", {"size": 512, "distance": "Cosine"}
-    )
-
-    vectorstore = Qdrant(
-        client=qdrant_client,
-        collection_name="youtube_transcripts",
-        embeddings=embeddings,
-    )
-
-    return {
-        "vectorstore": vectorstore,
-    }
-
-
 def learning_objectives(state: AgentState) -> AgentState:
     query = state["original_query"]
 
@@ -66,11 +43,10 @@ def search(state: AgentState) -> AgentState:
 
 def transcripts(state: AgentState) -> AgentState:
     videos = state["videos"]
-    vectorstore = state["vectorstore"]
 
-    _ = get_transcripts(list(videos.values()), vectorstore)
+    vectorstore = get_transcripts(list(videos.values()))
 
-    return {"transcripts_status": True}
+    return {"transcripts_status": True, "vectorstore": vectorstore}
 
 
 def generate(state: AgentState) -> AgentState:
@@ -88,17 +64,15 @@ def generate(state: AgentState) -> AgentState:
 def create_graph():
     # Define workflow
     workflow = StateGraph(AgentState)
-    workflow.add_node("make_vectorstore", create_vectorstore)
     workflow.add_node("objectives", learning_objectives)
     workflow.add_node("rewrite_query", rewrite_query)
     workflow.add_node("search", search)
     workflow.add_node("transcripts", transcripts)
     workflow.add_node("generate", generate)
 
-    workflow.set_entry_point("make_vectorstore")
+    workflow.set_entry_point("objectives")
 
     # Define edges
-    workflow.add_edge("make_vectorstore", "objectives")
     workflow.add_edge("objectives", "rewrite_query")
     workflow.add_edge("rewrite_query", "search")
     workflow.add_edge("search", "transcripts")

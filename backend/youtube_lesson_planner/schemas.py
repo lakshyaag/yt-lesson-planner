@@ -11,6 +11,11 @@ class Topic(BaseModel):
     objective: str = Field(..., description="The learning objective for the topic")
     videos: List[str] = Field(..., description="The YouTube video IDs for the topic")
     description: str = Field(..., description="The description of the topic")
+    steps: List[str] = Field(
+        ...,
+        description="The steps to follow to achieve the learning objective for the topic",
+    )
+
     suggested_activities: List[str] = Field(
         ..., description="Suggested activities for the topic to reinforce learning"
     )
