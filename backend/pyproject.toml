@@ -20,7 +20,6 @@ langchain-core = "^0.2.11"
 langchain-community = "^0.2.6"
 pytube = "^15.0.0"
 langchain-openai = "^0.1.14"
-supabase = "^2.5.1"
 langchain-qdrant = "^0.1.1"
 langserve = {extras = ["all"], version = "^0.2.2"}
 fastapi = "^0.111.0"
