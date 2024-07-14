@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from youtube_lesson_planner.graph import create_graph
+from youtube_lesson_planner.schemas import RequestModel
 
 app = FastAPI(
     title="YouTube Lesson Planner API",
@@ -33,7 +34,7 @@ def read_root():
 
 
 @app.post("/learn/")
-def build_plan(user_input: str):
+def build_plan(user_input: RequestModel):
     response = graph.invoke({"original_query": user_input})
 
     output = {
