@@ -1,11 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { mockResponse } from "@/lib/mock-data";
 
+const API_URL =
+  process.env.NODE_ENV === "production"
+    ? process.env.API_URL
+    : "http://localhost:8000";
+
 export async function POST(req: NextRequest) {
   const { query } = await req.json();
 
   try {
-    const response = await fetch("http://localhost:8000/learn/", {
+    const response = await fetch(`${API_URL}/learn/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
