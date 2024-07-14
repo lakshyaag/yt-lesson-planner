@@ -1,3 +1,4 @@
+// TOOD: Fix dark mode colors
 import type { Metadata, Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
