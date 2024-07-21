@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { useLessonPlanStore } from "@/store/useLessonPlanStore";
 import { useLoadingStore } from "@/store/useLoadingStore";
 import Spinner from "@/components/spinner";
+import { searchLessonPlan } from "@/lib/apiClient";
 
 const SearchForm = () => {
   const [query, setQuery] = useState("");
@@ -17,19 +18,7 @@ const SearchForm = () => {
     event.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch("/api/search", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ query }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-
-      const data = await response.json();
+      const data = await searchLessonPlan(query);
       setLessonPlan(data);
     } catch (error) {
       console.error("Error during search:", error);
@@ -42,7 +31,7 @@ const SearchForm = () => {
     <form onSubmit={handleSubmit} className="flex flex-col items-center">
       <Input
         type="text"
-        placeholder="Search for a lesson..."
+        placeholder="What do you want to learn today?"
         className="w-full mb-4"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
