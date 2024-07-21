@@ -30,6 +30,7 @@ const SearchForm = () => {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col items-center">
       <Input
+        required
         type="text"
         placeholder="What do you want to learn today?"
         className="w-full mb-4"

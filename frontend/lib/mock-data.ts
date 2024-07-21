@@ -1,211 +1,238 @@
 export const mockResponse = {
-  original_query: {
-    user_input: "swiftui apps",
-  },
+  original_query: "ackerman function",
+  rewritten_query:
+    "Ackermann function definition properties Python implementation computational complexity analysis recursive functions comparison applications computer science",
   learning_objectives: {
     objectives: [
       {
         index: 1,
-        objective: "Understand the basic concepts and components of SwiftUI.",
+        objective:
+          "Understand the mathematical definition and properties of the Ackermann function.",
       },
       {
         index: 2,
-        objective: "Design and build a simple user interface using SwiftUI.",
+        objective: "Implement the Ackermann function in Python.",
       },
       {
         index: 3,
         objective:
-          "Implement state management and data binding in a SwiftUI app.",
+          "Analyze the computational complexity and behavior of the Ackermann function with various inputs.",
       },
       {
         index: 4,
         objective:
-          "Incorporate navigation and user interaction in a SwiftUI application.",
+          "Compare the Ackermann function to other recursive functions to understand its significance in theoretical computer science.",
       },
       {
         index: 5,
         objective:
-          "Deploy and test a SwiftUI app on an iOS device or simulator.",
+          "Explore practical applications and implications of the Ackermann function in computer science.",
       },
     ],
   },
-  videos: {
-    b1oC7sLIgpI: {
-      video_id: "b1oC7sLIgpI",
-      title: "SwiftUI Fundamentals | FULL COURSE | Beginner Friendly",
-      description:
-        "Get your start in SwiftUI with SwiftUI Fundamentals. In this 12 hour course we build 4 apps that ramp up in difficulty. The first 3 ...",
-      published_at: "2023-09-06T11:56:06Z",
-      channel_title: "Sean Allen",
-      chunk_time_limit: 60,
-    },
-    b8sP7AS0CAY: {
-      video_id: "b8sP7AS0CAY",
-      title: "Animate an iOS app in SwiftUI - Full 3-hour course",
-      description:
-        "Build a weather app with scroll and text animations from a fully custom design using SwiftUI Sponsored by Rive - https://rive.app ...",
-      published_at: "2022-06-30T14:00:30Z",
-      channel_title: "DesignCode",
-      chunk_time_limit: 60,
-    },
-    bqu6BquVi2M: {
-      video_id: "bqu6BquVi2M",
-      title: "Lecture 1: Getting started with SwiftUI",
-      description:
-        "The first of the lectures given to Stanford University students who took CS193p, Developing Applications for iOS using SwiftUI, ...",
-      published_at: "2021-05-17T15:00:16Z",
-      channel_title: "Stanford",
-      chunk_time_limit: 60,
-    },
-    GOf8UJdWLRs: {
-      video_id: "GOf8UJdWLRs",
-      title:
-        "Learning SwiftUI, when you already know UIKit – The Navigation 📱 (free iOS tutorial)",
-      description:
-        "Do you want to easily download the videos and Xcode projects of this training course? They're available for sale on Gumroad for ...",
-      published_at: "2023-04-20T20:20:13Z",
-      channel_title: "Vincent Pradeilles",
-      chunk_time_limit: 60,
-    },
-    rTXkGCg58w0: {
-      video_id: "rTXkGCg58w0",
-      title: "Core Data In SwiftUI | SwiftUI Core Data Tutorial",
-      description:
-        "Core Data In SwiftUI | SwiftUI Core Data Tutorial Improvement   In the vid you'll see in the ContactsProvider.swift file I create a ...",
-      published_at: "2023-01-01T14:00:19Z",
-      channel_title: "tundsdev",
-      chunk_time_limit: 60,
-    },
-    "--qKOhdgJAs": {
-      video_id: "--qKOhdgJAs",
-      title: "Lecture 3: MVVM and the Swift type system",
-      description:
-        "Lecture 3 of Stanford's Spring 2021 iteration of its CS193p course (Developing Applications for iOS) starts off with a conceptual ...",
-      published_at: "2021-05-24T15:00:17Z",
-      channel_title: "Stanford",
-      chunk_time_limit: 60,
-    },
-    h4vyOz4Tztg: {
-      video_id: "h4vyOz4Tztg",
-      title: "Build iOS app with Rive Animations - Full 3-hour course",
-      description:
-        "Design and code a SwiftUI app with Rive (https://rive.app) animated assets, icon animations, custom layouts and interactions ...",
-      published_at: "2022-05-26T19:00:44Z",
-      channel_title: "DesignCode",
-      chunk_time_limit: 60,
-    },
-    "4GjXq2Sr55Q": {
-      video_id: "4GjXq2Sr55Q",
-      title: "Lecture 2: MVVM and the Swift Type System",
-      description:
-        "The series of video lectures given to Stanford University students in Spring of 2020 continues with a conceptual overview of the ...",
-      published_at: "2020-05-18T15:00:05Z",
-      channel_title: "Stanford",
-      chunk_time_limit: 60,
-    },
-    "_HL-Jz6Stic": {
-      video_id: "_HL-Jz6Stic",
-      title: "Architecture of an iOS app: what are the best practices? 🤨",
-      description:
-        "Big thank you to Bitrise for sponsoring this live! Bitrise is a cloud-based, secure and scalable Mobile DevOps platform, check ...",
-      published_at: "2022-05-26T20:24:39Z",
-      channel_title: "Vincent Pradeilles",
-      chunk_time_limit: 60,
-    },
-    "5vDTtXFT0tg": {
-      video_id: "5vDTtXFT0tg",
-      title:
-        "DC iOS/iOSoHo: Improving Developer Experience through Tools and Techniques",
-      description:
-        "Joint Meetup with DC iOS and iOSoHo, held virtually on 4/13/2021 Improving Developer Experience through Tools and ...",
-      published_at: "2021-04-21T23:41:13Z",
-      channel_title: "Dev Community",
-      chunk_time_limit: 60,
-    },
-  },
   lesson_plan: {
-    title: "Building SwiftUI Apps: From Basics to Deployment",
+    title: "Understanding and Implementing the Ackermann Function",
     topics: [
       {
-        objective: "Understand the basic concepts and components of SwiftUI.",
-        videos: ["bqu6BquVi2M", "b1oC7sLIgpI"],
+        objective:
+          "Understand the mathematical definition and properties of the Ackermann function.",
+        videos: [
+          {
+            id: "G2fqAlgmoPo",
+            start_timestamp: 480,
+            end_timestamp: 600,
+          },
+        ],
         description:
-          "This topic introduces the fundamental concepts of SwiftUI, including its structure, syntax, and basic components.",
+          "In this segment, learners will be introduced to the Ackermann function, its mathematical definition, and its unique properties that distinguish it from other recursive functions.",
         steps: [
-          "Watch the 'Getting Started with SwiftUI' lecture to understand the basics of SwiftUI.",
-          "Review the 'SwiftUI Fundamentals' course for a deeper dive into the core concepts and components.",
-          "Take notes on the key components and their functions in SwiftUI.",
+          "Watch the video segment to understand the basic concept of the Ackermann function.",
+          "Review the mathematical definition of the Ackermann function from additional resources.",
+          "Identify the properties that make the Ackermann function unique.",
         ],
         suggested_activities: [
-          "Create a simple 'Hello, World!' app using SwiftUI to familiarize yourself with the environment.",
-          "Write a summary of the key concepts learned from the videos.",
+          "Write a short summary explaining the Ackermann function and its properties.",
         ],
       },
       {
-        objective: "Design and build a simple user interface using SwiftUI.",
-        videos: ["bqu6BquVi2M", "b1oC7sLIgpI"],
+        objective: "Implement the Ackermann function in Python.",
+        videos: [
+          {
+            id: "G2fqAlgmoPo",
+            start_timestamp: 960,
+            end_timestamp: 1080,
+          },
+        ],
         description:
-          "This topic covers the steps to design and build a basic user interface in SwiftUI, including layout, views, and modifiers.",
+          "This segment will guide learners through the process of implementing the Ackermann function in Python, highlighting key aspects of recursive programming.",
         steps: [
-          "Watch the relevant sections of the 'Getting Started with SwiftUI' lecture focusing on UI design.",
-          "Follow along with the 'SwiftUI Fundamentals' course to build a simple weather app UI.",
-          "Practice using different views and modifiers to customize the UI.",
+          "Watch the video segment to understand the basics of implementing functions in programming.",
+          "Follow a step-by-step guide to write the Ackermann function in Python.",
+          "Test the function with different input values to observe its behavior.",
         ],
         suggested_activities: [
-          "Design and build a simple weather app interface.",
-          "Experiment with different views and modifiers to see their effects.",
+          "Write the Ackermann function in Python and test it with various inputs. Share your code and results in a discussion forum.",
         ],
       },
       {
         objective:
-          "Implement state management and data binding in a SwiftUI app.",
-        videos: ["4GjXq2Sr55Q", "--qKOhdgJAs"],
+          "Analyze the computational complexity and behavior of the Ackermann function with various inputs.",
+        videos: [
+          {
+            id: "hfIUstzHs9A",
+            start_timestamp: 0,
+            end_timestamp: 120,
+          },
+        ],
         description:
-          "This topic explores state management and data binding in SwiftUI, focusing on the MVVM architecture.",
+          "Learners will explore the computational complexity of the Ackermann function and analyze how it behaves with different inputs, understanding its implications in terms of performance and resource usage.",
         steps: [
-          "Watch the 'MVVM and the Swift Type System' lecture to understand the MVVM architecture.",
-          "Learn how to implement state management and data binding in SwiftUI.",
-          "Practice by creating a simple app that uses state management to update the UI.",
+          "Watch the video segment to understand the basics of computational complexity.",
+          "Analyze the behavior of the Ackermann function with different inputs and note the time and resources required.",
+          "Compare the complexity of the Ackermann function with other recursive functions.",
         ],
         suggested_activities: [
-          "Create a simple card matching game using MVVM architecture.",
-          "Implement state management to update the UI based on user interactions.",
+          "Create a chart or graph showing the time complexity of the Ackermann function with different inputs. Discuss your findings in a forum.",
         ],
       },
       {
         objective:
-          "Incorporate navigation and user interaction in a SwiftUI application.",
-        videos: ["b8sP7AS0CAY", "GOf8UJdWLRs"],
+          "Compare the Ackermann function to other recursive functions to understand its significance in theoretical computer science.",
+        videos: [
+          {
+            id: "hfIUstzHs9A",
+            start_timestamp: 120,
+            end_timestamp: 240,
+          },
+        ],
         description:
-          "This topic covers navigation and user interaction in SwiftUI, including navigation views, tab bars, and modal views.",
+          "This segment will help learners compare the Ackermann function to other recursive functions, highlighting its significance and applications in theoretical computer science.",
         steps: [
-          "Watch the 'Animate an iOS app in SwiftUI' course for an in-depth look at navigation and user interaction.",
-          "Review the 'Learning SwiftUI, when you already know UIKit' tutorial for additional insights on navigation.",
-          "Practice implementing navigation and user interaction in a sample app.",
+          "Watch the video segment to understand different types of recursive functions.",
+          "Compare the Ackermann function with other well-known recursive functions like the factorial function or Fibonacci sequence.",
+          "Identify the unique aspects of the Ackermann function that make it significant in theoretical computer science.",
         ],
         suggested_activities: [
-          "Build a multi-screen app with navigation and user interaction.",
-          "Experiment with different navigation patterns and user interactions.",
+          "Write a comparative analysis of the Ackermann function and other recursive functions. Highlight key differences and similarities.",
         ],
       },
       {
         objective:
-          "Deploy and test a SwiftUI app on an iOS device or simulator.",
-        videos: ["bqu6BquVi2M", "b8sP7AS0CAY"],
+          "Explore practical applications and implications of the Ackermann function in computer science.",
+        videos: [
+          {
+            id: "hfIUstzHs9A",
+            start_timestamp: 240,
+            end_timestamp: 360,
+          },
+        ],
         description:
-          "This topic covers the steps to deploy and test a SwiftUI app on an iOS device or simulator.",
+          "In this final segment, learners will explore the practical applications and implications of the Ackermann function in the field of computer science.",
         steps: [
-          "Watch the 'Getting Started with SwiftUI' lecture for an introduction to deploying apps.",
-          "Follow the 'Animate an iOS app in SwiftUI' course for practical deployment tips.",
-          "Learn how to use Xcode to deploy and test your app on an iOS device or simulator.",
+          "Watch the video segment to understand the applications of complex functions in computer science.",
+          "Research additional resources to find practical applications of the Ackermann function.",
+          "Discuss the implications of the Ackermann function in terms of computational theory and practice.",
         ],
         suggested_activities: [
-          "Deploy a simple app to an iOS simulator.",
-          "Test the app on different devices and screen sizes.",
+          "Write an essay on the practical applications and implications of the Ackermann function in computer science. Share your essay in a peer review forum.",
         ],
       },
     ],
     comments:
-      "This curriculum is designed to be engaging and interactive, with a mix of video lectures, hands-on practice, and self-assessment activities. It is suitable for adult learners who prefer an all-digital asynchronous learning platform.",
+      "This curriculum is designed for adult learners with a basic understanding of mathematics and programming. It provides a comprehensive overview of the Ackermann function, from its mathematical foundation to its practical applications in computer science. Each segment includes engaging content, practical activities, and self-assessment opportunities to reinforce learning.",
+  },
+  videos: {
+    G2fqAlgmoPo: {
+      video_id: "G2fqAlgmoPo",
+      title: "Introduction to Generative AI",
+      description:
+        "Enroll in this course on Google Cloud Skills Boost → https://goo.gle/3MdGgHs What is Generative AI and how does it work?",
+      published_at: "2023-05-08T23:14:00Z",
+      channel_title: "Google Cloud Tech",
+      chunk_time_limit: 120,
+    },
+    "rwF-X5STYks": {
+      video_id: "rwF-X5STYks",
+      title: "Generative AI explained in 2 minutes",
+      description:
+        "You've probably heard of ChatGPT, Midjourney, prompts and deepfakes. But what exactly is \"generative AI\"? That's what you'll ...",
+      published_at: "2023-09-25T08:38:07Z",
+      channel_title: "KI-Campus",
+      chunk_time_limit: 120,
+    },
+    _6R7Ym6Vy_I: {
+      video_id: "_6R7Ym6Vy_I",
+      title:
+        "What is generative AI and how does it work? – The Turing Lectures with Mirella Lapata",
+      description:
+        "How are technologies like ChatGPT created? And what does the future hold for AI language models? This talk was filmed at the ...",
+      published_at: "2023-10-12T16:29:50Z",
+      channel_title: "The Royal Institution",
+      chunk_time_limit: 120,
+    },
+    hfIUstzHs9A: {
+      video_id: "hfIUstzHs9A",
+      title: "What are Generative AI models?",
+      description:
+        "Learn more about watsonx → https://ibm.biz/BdvxDz Generative AI has stunned the world with its ability to create realistic images, ...",
+      published_at: "2023-03-22T19:58:47Z",
+      channel_title: "IBM Technology",
+      chunk_time_limit: 120,
+    },
+    pWNAtUwnBS8: {
+      video_id: "pWNAtUwnBS8",
+      title: "What is Generative AI?",
+      description:
+        "Get our full guide to Generative AI here: https://social.ora.cl/60095GtWv The question of the year has certainly been: What is ...",
+      published_at: "2023-09-15T18:47:37Z",
+      channel_title: "Oracle",
+      chunk_time_limit: 120,
+    },
+    Yq0QkCxoTHM: {
+      video_id: "Yq0QkCxoTHM",
+      title: "Google’s AI Course for Beginners (in 10 minutes)!",
+      description:
+        "Grab my free Workspace Toolkit: https://academy.jeffsu.org/?utm_source=youtube&utm_medium=video&utm_campaign=146 In ...",
+      published_at: "2023-11-14T13:00:33Z",
+      channel_title: "Jeff Su",
+      chunk_time_limit: 120,
+    },
+    vneJieU5qlg: {
+      video_id: "vneJieU5qlg",
+      title: "Generative AI Explained",
+      description:
+        "GlobalData gives a brief overview on Generative AI, how this new technology is being applied, and who are the leading ...",
+      published_at: "2023-05-12T14:47:06Z",
+      channel_title: "GlobalData Trends & Insight",
+      chunk_time_limit: 120,
+    },
+    qWSFcRXpjxQ: {
+      video_id: "qWSFcRXpjxQ",
+      title:
+        "What is Generative AI and How Does it Work? | Amazon Web Services",
+      description:
+        "Generative AI has the potential to transform how industries operates and change our daily lives for the better. So, what makes ...",
+      published_at: "2023-11-17T01:11:39Z",
+      channel_title: "Amazon Web Services",
+      chunk_time_limit: 120,
+    },
+    "5sLYAQS9sWQ": {
+      video_id: "5sLYAQS9sWQ",
+      title: "How Large Language Models Work",
+      description:
+        "Learn about watsonx → https://ibm.biz/BdvxRj Large language models-- or LLMs --are a type of generative pretrained transformer ...",
+      published_at: "2023-07-28T13:13:59Z",
+      channel_title: "IBM Technology",
+      chunk_time_limit: 120,
+    },
+    unPKJJjQP0A: {
+      video_id: "unPKJJjQP0A",
+      title: "Watch this before using generative AI",
+      description:
+        "Ready to get started with generative AI? Here are the 5 must-knows for teens and parents to learn how to use it responsibly.",
+      published_at: "2023-11-15T22:45:04Z",
+      channel_title: "Google",
+      chunk_time_limit: 120,
+    },
   },
 };

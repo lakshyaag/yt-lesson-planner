@@ -1,3 +1,5 @@
+import { mockResponse } from "./mock-data";
+
 const API_URL =
   process.env.NODE_ENV === "production"
     ? process.env.NEXT_PUBLIC_API_URL
@@ -18,6 +20,7 @@ export async function searchLessonPlan(query: string) {
     }
 
     const data = await response.json();
+    // const data = mockResponse;
     return data;
   } catch (error) {
     console.error("Error during search:", error);
