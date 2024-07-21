@@ -1,7 +1,5 @@
-import os
 from typing import Any, Dict, Generator, List
 
-import googleapiclient.discovery
 from dotenv import load_dotenv
 from langchain.schema import Document
 from rich import print
@@ -9,23 +7,6 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.pydantic_v1 import BaseModel
 
 load_dotenv()
-
-youtube = googleapiclient.discovery.build(
-    "youtube", "v3", developerKey=os.getenv("YOUTUBE_API_KEY")
-)
-
-
-def search_videos(query: str, max_results: int = 10) -> dict:
-    request = youtube.search().list(
-        part="snippet",
-        q=query,
-        type="video",
-        videoCaption="closedCaption",
-        maxResults=max_results,
-    )
-
-    response = request.execute()
-    return response
 
 
 class YouTubeVideo(BaseModel):

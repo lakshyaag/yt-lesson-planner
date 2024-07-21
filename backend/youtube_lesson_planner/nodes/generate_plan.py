@@ -20,7 +20,7 @@ def generate_plan(
             (
                 "user",
                 dedent(
-                """
+                    """
                 You are an agent that specializes in building learning curriculums based on user queries by searching YouTube. 
                 Your task is to create comprehensive and engaging learning curriculums using relevant YouTube videos that match the user's query.
 
@@ -33,7 +33,9 @@ def generate_plan(
 
                 Using the learning objectives, create a short, effective curriculum for each topic by selecting and integrating the most relevant YouTube videos. The curriculum should be designed for adult learners and hosted on an all-digital asynchronous learning platform. Do not generate any curriculum that is offensive, hateful, derogatory, sexually explicit, harmful, or otherwise inappropriate. Consider that some topics may not have perfectly aligned YouTube videos and that topics like AI and digital marketing may evolve quickly over time. Ensure that each curriculum is structured to include engaging content, practice opportunities, and self-assessment methods. 
                 Analyze the topics in the curriculum and determine the best order for them to occur so they are logical and build on each other. Provide a brief description of the overall curriculum and each segment. 
-                For each segment, create an activity that is self-contained and directly related to the learning objectives. The activity should involve practical application of the content covered in the video. The self-assessment should enable learners to review their own performance in the activity to determine how well they have mastered the learning objective. Incorporate a variety of self-assessment options based on best practices in adult learning, such as quizzes, reflective journals, practical assignments, self-reviews, presentations, case studies, simulations, and portfolio development. Ensure the self-assessment is clear and provides criteria for learners to evaluate their work. Do not assume the availability of other supporting materials, such as quizzes.
+                For each segment, create an activity that is self-contained and directly related to the learning objectives. 
+                       
+                The activity should involve practical application of the content covered in the video. The self-assessment should enable learners to review their own performance in the activity to determine how well they have mastered the learning objective.
                 """
                 ),
             ),

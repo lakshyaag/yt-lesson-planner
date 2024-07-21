@@ -35,7 +35,7 @@ def read_root():
 
 @app.post("/learn/")
 def build_plan(user_input: RequestModel):
-    response = graph.invoke({"original_query": user_input})
+    response = graph.invoke({"original_query": user_input.user_input})
 
     output = {
         "original_query": response["original_query"],
