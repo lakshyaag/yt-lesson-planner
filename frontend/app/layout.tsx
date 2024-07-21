@@ -53,7 +53,7 @@ export default function RootLayout({
 
           <Header />
           <div className="flex flex-col items-center justify-center min-h-screen py-8">
-            <div className="w-full max-w-4xl p-4 bg-white dark:bg-gray-800 rounded-lg">
+            <div className="w-full max-w-4xl p-4 rounded-lg">
               {children}
             </div>
           </div>

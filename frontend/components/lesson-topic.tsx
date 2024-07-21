@@ -8,8 +8,8 @@ interface TopicProps {
 
 const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
   return (
-    <div className="mt-8 p-6 border rounded-lg shadow-sm bg-white">
-      <h3 className="text-2xl font-semibold">{topic.description}</h3>
+    <div className="mt-8 p-6 border rounded-lg shadow-sm">
+      <h3 className="text-lg lg:text-xl font-semibold">{topic.description}</h3>
       <div className="mt-6">
         <Tabs defaultValue={topic.videos[0]}>
           <TabsList className="flex space-x-2 mb-4 w-full">
@@ -17,7 +17,7 @@ const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
               <TabsTrigger
                 key={videoId}
                 value={videoId}
-                className="flex-1 px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 text-center"
+                className="flex-1 px-4 py-2 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 text-center"
               >
                 {`Video ${index + 1}`}
               </TabsTrigger>
@@ -25,7 +25,7 @@ const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
           </TabsList>
           {topic.videos.map((videoId, index) => (
             <TabsContent key={videoId} value={videoId} className="p-4">
-              <div className="mt-4 p-4 border rounded-lg shadow-sm bg-gray-50">
+              <div className="mt-4 p-4 border rounded-lg shadow-sm">
                 <iframe
                   width="100%"
                   height="300"
@@ -34,7 +34,7 @@ const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
                   allowFullScreen
                 ></iframe>
                 <div className="mt-4">
-                  <p className="mt-2 text-gray-700 font-bold">
+                  <p className="mt-2 font-bold">
                     {videos[videoId].title} - {videos[videoId].channel_title}
                   </p>
                 </div>
@@ -48,7 +48,7 @@ const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
           <h4 className="font-semibold">Steps:</h4>
           <ul className="list-disc list-inside">
             {topic.steps.map((step, stepIndex) => (
-              <li key={stepIndex} className="mt-2 text-gray-700">
+              <li key={stepIndex} className="mt-2">
                 {step}
               </li>
             ))}
@@ -58,7 +58,7 @@ const Topic: React.FC<TopicProps> = ({ topic, videos }) => {
           <h4 className="font-semibold">Suggested Activities:</h4>
           <ul className="list-disc list-inside">
             {topic.suggested_activities.map((activity, activityIndex) => (
-              <li key={activityIndex} className="mt-2 text-gray-700">
+              <li key={activityIndex} className="mt-2">
                 {activity}
               </li>
             ))}
