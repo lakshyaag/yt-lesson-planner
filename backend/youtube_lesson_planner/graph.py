@@ -34,7 +34,7 @@ def rewrite_query(state: AgentState) -> AgentState:
 
 def search(state: AgentState) -> AgentState:
     optimized_query = state["rewritten_query"]
-    videos = search_youtube(optimized_query, max_results=10)
+    videos = search_youtube(optimized_query, max_results=10, chunk_time_limit=120)
 
     return {
         "videos": videos,
@@ -53,8 +53,9 @@ def generate(state: AgentState) -> AgentState:
     query = state["original_query"]
     objectives = state["learning_objectives"]
     vectorstore = state["vectorstore"]
+    chunk_time_limit = next(iter(state["videos"].values())).chunk_time_limit
 
-    lesson_plan = generate_plan(query, objectives, vectorstore)
+    lesson_plan = generate_plan(query, objectives, vectorstore, chunk_time_limit)
 
     return {
         "lesson_plan": lesson_plan,

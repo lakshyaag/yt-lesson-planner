@@ -8,9 +8,24 @@ from typing_extensions import TypedDict
 from youtube_lesson_planner.video import YouTubeVideo
 
 
+class Video(BaseModel):
+    """
+    Represents a YouTube video with start and end timestamps that fulfill a topic.
+    """
+    id: str = Field(..., description="The YouTube video ID")
+    start_timestamp: float = Field(
+        ..., description="The start timestamp of the video to watch (in seconds)"
+    )
+    end_timestamp: float = Field(
+        ..., description="The end timestamp of the video to watch (in seconds)"
+    )
+
+
 class Topic(BaseModel):
     objective: str = Field(..., description="The learning objective for the topic")
-    videos: List[str] = Field(..., description="The YouTube video IDs for the topic")
+    videos: List[Video] = Field(
+        ..., description="The YouTube videos to watch for the topic"
+    )
     description: str = Field(..., description="The description of the topic")
     steps: List[str] = Field(
         ...,
@@ -56,6 +71,7 @@ class AgentState(TypedDict):
     videos: Dict[str, YouTubeVideo]
     vectorstore: Qdrant
     transcripts_status: bool
+
 
 class RequestModel(PydanticBaseModel):
     user_input: str

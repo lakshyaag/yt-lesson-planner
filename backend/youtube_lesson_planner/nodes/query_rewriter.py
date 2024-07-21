@@ -15,14 +15,14 @@ def rewrite(query: str, plan: LearningObjectivesList) -> QueryRewriteTemplate:
                     """
                 You are an agent that specializes in optimizing user queries for YouTube.
 
+                Rewrite the user's query to optimize it for YouTube to find relevant videos that match ALL the learning objectives, while keeping the intent of the original query.
+                Ensure that the optimized query is clear, CONCISE, and specific to improve the search results on YouTube.
+                
                 The learning objectives for the user's query are:
                 {plan}
 
+
                 The user has provided the following query: {input}
-
-                Rewrite the user's query to optimize it for YouTube to find relevant videos that match ALL the learning objectives, while keeping the intent of the original query.
-
-                Ensure that the optimized query is clear, CONCISE, and specific to improve the search results on YouTube.
                 """
                 ),
             ),

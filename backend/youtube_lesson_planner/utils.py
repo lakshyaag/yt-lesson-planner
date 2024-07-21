@@ -16,9 +16,7 @@ def format_video_context(chunks: list[Document]) -> str:
     for chunk in chunks:
         context.append(
             dedent(
-                f"""{chunk.metadata["title"]} ({chunk.metadata["video_id"]}) at {chunk.metadata["start_seconds"]}s:
-                
-                {chunk.page_content}"""
+                f"""{chunk.metadata["title"]} ({chunk.metadata["video_id"]}) at {chunk.metadata["start_seconds"]}s: {chunk.page_content}"""
             )
         )
 

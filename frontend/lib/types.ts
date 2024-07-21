@@ -1,3 +1,9 @@
+export interface VideoTopic {
+  id: string;
+  start_timestamp: number;
+  end_timestamp: number;
+}
+
 export interface Video {
   video_id: string;
   title: string;
@@ -9,7 +15,7 @@ export interface Video {
 
 export interface Topic {
   objective: string;
-  videos: string[];
+  videos: VideoTopic[];
   description: string;
   steps: string[];
   suggested_activities: string[];
