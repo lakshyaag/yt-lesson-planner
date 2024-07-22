@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <main className="flex flex-col items-center justify-center py-8">
-        <h1 className="text-4xl font-bold text-center ">Welcome to YouNiversity!</h1>
+        <h1 className="text-4xl font-bold text-center ">Welcome to Video YouNiversity!</h1>
         <p className="mt-4 text-lg text-center">
           Create detailed lesson plans from YouTube content tailored to your search queries with ease.
         </p>

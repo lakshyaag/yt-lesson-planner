@@ -44,7 +44,7 @@ def generate_plan(
                 Analyze the topics in the curriculum and determine the best order for them to occur so they are logical and build on each other. Provide a brief description of the overall curriculum and each segment. 
                 For each segment, create an activity that is self-contained and directly related to the learning objectives. 
                        
-                The activity should involve practical application of the content covered in the video. The self-assessment should enable learners to review their own performance in the activity to determine how well they have mastered the learning objective.
+                The activity should involve practical application of the content covered in the video. The self-assessment should enable learners to review their own performance in the activity to determine how well they have mastered the learning objective. Incorporate a variety of self-assessment options based on best practices in adult learning, such as quizzes, reflective journals, practical assignments, self-reviews, presentations, case studies, simulations, and portfolio development. Ensure the self-assessment is clear and provides criteria for learners to evaluate their work. Do not assume the availability of other supporting materials, such as quizzes.
                 """
                 ),
             ),

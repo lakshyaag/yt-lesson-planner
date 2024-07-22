@@ -15,7 +15,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "YouNiversity",
+  title: "Video YouNiversity",
   description: "Plan your YouTube lessons with ease.",
 };
 

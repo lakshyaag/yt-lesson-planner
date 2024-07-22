@@ -10,7 +10,7 @@ export const Header: React.FC = async () => {
         <a href="/">
           <div className="flex items-center mx-4">
             <IconLogo className={cn("w-5 h-5 mr-2")} />
-            <span className="text-lg font-bold">YT Lesson Planner</span>
+            <span className="text-lg font-bold">Video YouNiversity</span>
           </div>
         </a>
       </div>
